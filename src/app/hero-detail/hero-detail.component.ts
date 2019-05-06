@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Hero } from '../hero';
+import { HEROES } from './fake-heroes';
 
 @Input() hero: Hero;
 
